@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayantan1821/naturefoot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sayantan1821/naturefoot/issues"
+  },
+  "homepage": "https://github.com/sayantan1821/naturefoot#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
