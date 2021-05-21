@@ -6,6 +6,9 @@ Medium green: #55c57a
 Dark green: #28b485
 
 */
+:root {
+    --mainColor: #ff9800;
+  }
 
 
 $color-primary: #55c57a;
@@ -14,6 +17,8 @@ $color-primary-dark: #28b485;
 
 $color-gray-dark: #777;
 $color-white: #fff;
+$color-gray-light-1: #f7f7f7;
+$color-black: #000;
 *,
 *::after,
 *::before {
@@ -176,4 +181,44 @@ body {
         animation: moveInBottom .5s ease-out;
         animation-fill-mode: backwards;
     }
+}
+
+
+
+///////////////////////////////////////////////////////Section About////////////////////////////////////////////////////////////
+
+
+.section-about {
+    background-color: $color-gray-light-1;
+    padding: 25rem 0;
+    margin-top: -20vh;
+}
+.heading-secondary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+    // text-align: center;
+    letter-spacing: .2rem;
+    text-shadow: .5rem 1rem 2rem rgba($color-black, .5);
+    // background:
+    //  linear-gradient(
+    //    to right,
+    //    var(--mainColor) 0%,
+    //    var(--mainColor) 5px,
+    //    transparent 5px
+    //   );
+    // &:hover {
+    //     background:
+    //     linear-gradient(
+    //       to right,
+    //       var(--mainColor) 0%,
+    //       var(--mainColor) 5px,
+    //       transparent
+    //     );
+    // }
+    
 }
