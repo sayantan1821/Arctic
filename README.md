@@ -2,4 +2,4 @@
 A pure HTML CSS JS app with various animations
 
 
-https://sayantan1821.github.io/naturefoot/
+site deployed ay : https://sayantan1821.github.io/Arctic/
